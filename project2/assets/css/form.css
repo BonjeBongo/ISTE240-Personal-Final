@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* exer3.css (exer/exer3.php)
+    Assignment 3: Nav vs Sitemap
+    Date: 09/18/2018
+    Author: Sem Vladyka
+    Server: Banjo.rit.edu
+    GIT: BonjeBongo
+    License: none
+*/
+
+/* Colors{
+  Dark: #033D3F
+  highlight Blue: #759EB8
+  Background: #FFECCC
+  Background Darker: #C6B89E
+  highlight Pink: #F2DDC1
+} */
+:root{
+  --text-dark: #033D3F;
+  --main-background: #EEDDC0;
+  --main-background-dark: #D2C3A5;
+  --highlight-blue: #759EB8;
+  --highlight-pink: #F2DDC1;
+}
+/* Main Page CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background-color: var(--main-background);
+}
+.container {
+  width: auto;
+  max-width: 95%;
+  padding: 0 15px;
+  margin-bottom: 5em;
+}
+.main{
+  padding-top: 4em;
+}
+.content, #versus, .footer, .navbar, .dropdown-menu{
+  font-family: Roboto, serif;
+  color: var(--text-dark) !important;
+  background-color: var(--main-background-dark) !important;
+  border: 2px solid var(--highlight-pink);
+  border-radius: 5px;
+  box-shadow: 0 1px 15px var(--main-background-dark);
+}
+/* End Main Page CSS */
+
+/* Navbar Specific CSS */
+.navbar{
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+}
+.nav-item{
+  margin-left: 5px;
+}
+.footer{
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+.dropdown-item{
+  color: var(--text-dark);
+}
+.dropdown-item:hover{
+  background-color: var(--highlight-blue);
+}
+.dropdown-item.active{
+  color: var(--text-dark);
+  border: 2px solid var(--main-background-dark);
+  background-color: var(--highlight-blue);
+  border-radius: 5px;
+ }
+.dropdown-divider{
+  background-color: var(--highlight-pink);
+}
+/* End Navbar Specific CSS */
+
+/* Main Body CSS */
+.bodyPadd{
+  margin: 2%;
+  margin-top: 5%;
+  padding: 2%;
+  min-width: 35%;
+}
+h1, h2{
+  font-family: K2D, serif;
+  font-weight: bold;
+  text-align: center;
+}
+#locLeg{
+  margin: 0 1em .25em 0;
+  max-width: 10em;
+  border: 2px solid var(--highlight-pink);
+  border-radius: 2px;
+  padding-left: 1em;
+}
+#locCont{
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
+#timer{
+  font-size: .9em;
+  font-weight: bold;
+}
+#topBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+  /* Sliders */
+  .slider {
+    -webkit-appearance: none;
+    margin-top: .6em;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: var(--main-background);
+    border: 2px solid var(--highlight-pink);
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--highlight-blue);
+    cursor: pointer;
+  }
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--highlight-blue);
+    cursor: pointer;
+  }
+  .slider-label{
+    margin: 0;
+    font-size: 1.5em;
+    font-family: Roboto, serif;
+    color: var(--text-dark);
+  }
+  /* End Sliders */
+/* End Body CSS */
+/* Button CSS */
+.btn{
+  width: 100%;
+  padding: 4px 15px 6px 15px;
+  margin: 5px 0;
+  border: 2px solid var(--main-background);
+  border-radius: 2px;
+  background-color: var(--main-background-dark);
+  color: var(--text-dark) !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn:hover{
+  box-shadow: inset 0 1px 15px var(--main-background-dark);
+  color: var(--text-dark);
+  background-color: var(--highlight-pink);
+  border-color: var(--main-background-dark);
+  border-bottom-color: var(--highlight-blue);
+  transition: all .5s;
+  cursor: pointer;
+}
+.btn:focus,.btn:active, .btn-primary:not(:disabled):not(.disabled).active{
+  outline: none !important;
+  border-radius: 2px;
+  background-color: var(--highlight-pink) !important;
+  border-color: var(--highlight-blue) !important;
+}
+/* End Button CSS */

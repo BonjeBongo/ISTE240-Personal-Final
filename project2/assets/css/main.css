@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* main.css (general css for all files)
+    Midterm solo project
+    Date: 10/15/2018
+    Author: Sem Vladyka
+    Server: Banjo.rit.edu
+    GIT: BonjeBongo
+    License: none
+*/
+
+/* Colors{
+  Dark: #033D3F
+  highlight Blue: #759EB8
+  Background: #FFECCC
+  Background Darker: #C6B89E
+  highlight Pink: #F2DDC1
+} */
+:root{
+  --text-dark: #033D3F;
+  --main-background: #EEDDC0;
+  --main-background-dark: #D2C3A5;
+  --highlight-blue: #759EB8;
+  --highlight-pink: #F2DDC1;
+  --frosty: #eeee;
+}
+/* Main Page CSS */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  background-color: var(--main-background);
+  margin-bottom: 0;
+}
+.container {
+  width: auto;
+  max-width: 95%;
+  margin-top: 20px;
+}
+.main{
+  padding-top: 4em;
+}
+.content, #versus, .footer, .navbar, .dropdown-menu{
+  font-family: Roboto, serif;
+  color: var(--text-dark) !important;
+  background-color: var(--main-background-dark) !important;
+  border: 2px solid var(--highlight-pink);
+  border-radius: 5px;
+  box-shadow: 0 1px 15px var(--main-background-dark);
+}
+.frost{
+  background-color: var(--frosty);
+}
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+.overflow-hidden { overflow: hidden; }
+/* End Main Page CSS */
+
+/* Navbar Specific CSS */
+.navbar{
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+}
+.nav-item{
+  margin-left: 5px;
+}
+.footer{
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+}
+.dropdown-item{
+  color: var(--text-dark);
+}
+.dropdown-item:hover{
+  background-color: var(--highlight-blue);
+}
+.dropdown-item.active{
+  color: var(--text-dark);
+  border: 2px solid var(--main-background-dark);
+  background-color: var(--highlight-blue);
+  border-radius: 5px;
+ }
+.dropdown-divider{
+  background-color: var(--highlight-pink);
+}
+/* End Navbar Specific CSS */
+
+/* Main Body CSS */
+.bodyPadd{
+  margin: 2%;
+  margin-top: 5%;
+  padding: 2%;
+  min-width: 35%;
+}
+h1, h2, h3{
+  font-family: K2D, serif;
+  font-weight: bold;
+  text-align: center;
+}
+iframe{
+  border: 0;
+}
+td{
+  text-align: center;
+}
+.anchor{
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+.has-bg{
+  background-repeat: no-repeat !important;
+  background-size: 100% 100%;
+  background-position: center top;
+  background-attachment: fixed !important;
+}
+#headder {
+  background-image: url('../images/main/m5.jpg');
+  background-size: 100% 115% !important;
+  background-position: 50% 200% !important;
+}
+#evts{
+  background-image: url('../images/rr1.jpg');
+  background-position: 10% 100% !important;
+}
+#landmrks{
+  background-image: url('../images/bot3.jpg');
+  background-position: 80% 40% !important;
+}
+#restr{
+  background-image: url('../images/rest1.jpg');
+}
+#htls{
+  background-image: url('../images/htl1.jpg');
+}
+#getto{
+  background-image: url('../images/main/travel.jpg');
+}
+#info{
+  background-image: url('../images/main/m4.jpg');
+}
+#map{
+  background-image: url('../images/main/m1.jpg');
+}
+
+ul{
+  list-style: none;
+}
+
+.legLabel{
+  font-family: K2D, serif !important;
+  font-weight: bold;
+  max-width: 9em !important;
+}
+/* End Body CSS */
+
+/*To Top Button*/
+#topBtn{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 99;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+}
+
+/* Button CSS */
+.btn{
+  width: 100%;
+  padding: 4px 15px 6px 15px;
+  margin: 5px 0;
+  border: 2px solid var(--main-background);
+  border-radius: 2px;
+  background-color: var(--main-background-dark);
+  color: var(--text-dark) !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.btn:hover{
+  box-shadow: inset 0 1px 15px var(--main-background-dark);
+  color: var(--text-dark);
+  background-color: var(--highlight-pink);
+  border-color: var(--main-background-dark);
+  border-bottom-color: var(--highlight-blue);
+  transition: all .5s;
+  cursor: pointer;
+}
+.btn:focus,.btn:active, .btn-primary:not(:disabled):not(.disabled).active{
+  outline: none !important;
+  border-radius: 2px;
+  background-color: var(--highlight-pink) !important;
+  border-color: var(--highlight-blue) !important;
+}
+/* End Button CSS */

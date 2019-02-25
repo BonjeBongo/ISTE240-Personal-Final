@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="351.63599"
+   height="137"
+   viewBox="0 0 351.636 136.99999"
+   version="1.1"
+   id="svg941"
+   sodipodi:docname="denv-co-lg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata945">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>denver-logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview943"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:zoom="2.8710823"
+     inkscape:cx="175.81799"
+     inkscape:cy="121.55695"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg941" />
+  <defs
+     id="defs883">
+    <style
+       id="style881">
+      .a {
+        fill: #b30838;
+      }
+    </style>
+  </defs>
+  <title
+     id="title885">denver-logo</title>
+  <g
+     id="g893"
+     transform="translate(-1.7140068,0.506001)"
+     style="fill:#759eb8;fill-opacity:1">
+    <polyline
+       class="a"
+       points="131.753 86.425 131.753 122.684 69.531 122.684 131.667 48.271 145.894 59.733 175.903 21.389 226.762 78.831 239.336 67.544 288.759 122.684 217.477 122.684 217.477 83.913 201.685 83.913 201.685 136.492 320.112 136.492 240.281 45.395 226.782 56.969 174.727 0 145.193 37.908 131.245 26.611 34.952 136.492 147.256 136.492 147.256 86.425 131.753 86.425"
+       id="polyline887"
+       style="fill:#759eb8;fill-opacity:1" />
+    <rect
+       class="a"
+       x="179.96001"
+       y="68.045998"
+       width="15.262"
+       height="68.447998"
+       id="rect889"
+       style="fill:#759eb8;fill-opacity:1" />
+    <rect
+       class="a"
+       x="156.22301"
+       y="56.91"
+       width="15.609"
+       height="79.584"
+       id="rect891"
+       style="fill:#759eb8;fill-opacity:1" />
+  </g>
+</svg>
